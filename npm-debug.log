@@ -1,0 +1,122 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/tknew/nvm/v0.8.17/bin/node',
+1 verbose cli   '/home/tknew/nvm/v0.8.17/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.0
+3 info using node@v0.8.17
+4 verbose publish [ '.' ]
+5 verbose read json /home/tknew/WiredCraft/carcass/examples/auth/node_modules/carcass-memoray/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/tknew/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/tmp.tgz
+14 verbose folder .
+15 info prepublish carcass-memoray@0.0.1
+16 silly lockFile 23c55c75-44412-0-5311245734337717-tmp-tgz /home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/tmp.tgz
+17 verbose lock /home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/tmp.tgz /home/tknew/.npm/23c55c75-44412-0-5311245734337717-tmp-tgz.lock
+18 silly lockFile 23c55c75-44412-0-5311245734337717-tmp-tgz /home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/tmp.tgz
+19 verbose tar unpack /home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/tmp.tgz
+20 silly lockFile cc96d385-44412-0-5311245734337717-package /home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/package
+21 verbose lock /home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/package /home/tknew/.npm/cc96d385-44412-0-5311245734337717-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+25 silly gunzTarPerm extractEntry .npmignore
+26 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+27 silly gunzTarPerm extractEntry README.md
+28 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+29 silly gunzTarPerm extractEntry index.js
+30 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+31 silly gunzTarPerm extractEntry Makefile
+32 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+33 silly gunzTarPerm extractEntry test/carcass_test.mocha.js
+34 silly gunzTarPerm modified mode [ 'test/carcass_test.mocha.js', 436, 420 ]
+35 silly gunzTarPerm extractEntry test/mocha.opts
+36 silly gunzTarPerm modified mode [ 'test/mocha.opts', 436, 420 ]
+37 silly gunzTarPerm extractEntry storages/memoray.js
+38 silly gunzTarPerm modified mode [ 'storages/memoray.js', 436, 420 ]
+39 silly gunzTarPerm extractEntry History.md
+40 silly gunzTarPerm modified mode [ 'History.md', 436, 420 ]
+41 verbose read json /home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/package/package.json
+42 silly lockFile cc96d385-44412-0-5311245734337717-package /home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/package
+43 verbose from cache /home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/package/package.json
+44 verbose tar pack [ '/home/tknew/.npm/carcass-memoray/0.0.1/package.tgz',
+44 verbose tar pack   '/home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/package' ]
+45 verbose tarball /home/tknew/.npm/carcass-memoray/0.0.1/package.tgz
+46 verbose folder /home/tknew/tmp/npm-8718/1361860344412-0.5311245734337717/package
+47 silly lockFile 19f0154d-arcass-memoray-0-0-1-package-tgz /home/tknew/.npm/carcass-memoray/0.0.1/package.tgz
+48 verbose lock /home/tknew/.npm/carcass-memoray/0.0.1/package.tgz /home/tknew/.npm/19f0154d-arcass-memoray-0-0-1-package-tgz.lock
+49 silly lockFile 19f0154d-arcass-memoray-0-0-1-package-tgz /home/tknew/.npm/carcass-memoray/0.0.1/package.tgz
+50 silly lockFile b73cd4ed-pm-carcass-memoray-0-0-1-package /home/tknew/.npm/carcass-memoray/0.0.1/package
+51 verbose lock /home/tknew/.npm/carcass-memoray/0.0.1/package /home/tknew/.npm/b73cd4ed-pm-carcass-memoray-0-0-1-package.lock
+52 silly lockFile b73cd4ed-pm-carcass-memoray-0-0-1-package /home/tknew/.npm/carcass-memoray/0.0.1/package
+53 verbose tar unpack /home/tknew/.npm/carcass-memoray/0.0.1/package.tgz
+54 silly lockFile b73cd4ed-pm-carcass-memoray-0-0-1-package /home/tknew/.npm/carcass-memoray/0.0.1/package
+55 verbose lock /home/tknew/.npm/carcass-memoray/0.0.1/package /home/tknew/.npm/b73cd4ed-pm-carcass-memoray-0-0-1-package.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry .npmignore
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm extractEntry index.js
+61 silly gunzTarPerm extractEntry Makefile
+62 silly gunzTarPerm extractEntry test/carcass_test.mocha.js
+63 silly gunzTarPerm extractEntry test/mocha.opts
+64 silly gunzTarPerm extractEntry storages/memoray.js
+65 silly gunzTarPerm extractEntry History.md
+66 verbose read json /home/tknew/.npm/carcass-memoray/0.0.1/package/package.json
+67 silly lockFile b73cd4ed-pm-carcass-memoray-0-0-1-package /home/tknew/.npm/carcass-memoray/0.0.1/package
+68 silly shasum updated bytes 1899
+69 info shasum 55b749f72d1ee0253e252ee6d8925c86662c9990
+69 info shasum /home/tknew/.npm/carcass-memoray/0.0.1/package.tgz
+70 verbose from cache /home/tknew/.npm/carcass-memoray/0.0.1/package/package.json
+71 verbose chmod /home/tknew/.npm/carcass-memoray/0.0.1/package.tgz 644
+72 verbose chown /home/tknew/.npm/carcass-memoray/0.0.1/package.tgz [ 1000, 1000 ]
+73 silly lockFile 3a52ce78- .
+74 silly publish { author:
+74 silly publish    { name: 'Alexandre Strzelewicz',
+74 silly publish      email: 'info@devo.ps',
+74 silly publish      url: 'https://github.com/devo-ps' },
+74 silly publish   name: 'carcass-memoray',
+74 silly publish   description: 'Memory storage with Array.js for Carcass',
+74 silly publish   version: '0.0.1',
+74 silly publish   contributors: [],
+74 silly publish   keywords: [ 'carcass', 'storage' ],
+74 silly publish   repository:
+74 silly publish    { type: 'git',
+74 silly publish      url: 'https://github.com/Alexandre-Strzelewicz/carcass-memoray' },
+74 silly publish   url: '',
+74 silly publish   dependencies: { 'array.js': '*' },
+74 silly publish   devDependencies: { mocha: '1.x', should: '1.x', debug: '*' },
+74 silly publish   scripts: { test: './node_modules/.bin/mocha ./test/*.mocha.js' },
+74 silly publish   readme: '# Carcass Memoray\n\nStorage plugin for Carcass using [ArrayJS](http://matthewmueller.github.com/array/)\n\n## Methods\n\n- put(data, cb)\n- find(data, cb)\n- del(data, cb)\n\n## Example\n\n```\nvar storage = carcass.storages.memoray({\n    id: \'model\'\n});\n\nvar builder = carcass.factories.Model({\n    attributes: {\n        id: {},\n        username : {}\n    },\n    storage: storage\n});\n\nbuilder.use(carcass.plugins.modelSync);\n\n```\n## Test\n\n`make test`\n',
+74 silly publish   readmeFilename: 'README.md',
+74 silly publish   _id: 'carcass-memoray@0.0.1',
+74 silly publish   dist: { shasum: '55b749f72d1ee0253e252ee6d8925c86662c9990' } }
+75 verbose url raw carcass-memoray
+76 verbose url resolving [ 'https://registry.npmjs.org/', './carcass-memoray' ]
+77 verbose url resolved https://registry.npmjs.org/carcass-memoray
+78 info trying registry request attempt 1 at 14:32:24
+79 http PUT https://registry.npmjs.org/carcass-memoray
+80 http 409 https://registry.npmjs.org/carcass-memoray
+81 verbose url raw carcass-memoray
+82 verbose url resolving [ 'https://registry.npmjs.org/', './carcass-memoray' ]
+83 verbose url resolved https://registry.npmjs.org/carcass-memoray
+84 info trying registry request attempt 1 at 14:32:28
+85 http GET https://registry.npmjs.org/carcass-memoray
+86 http 200 https://registry.npmjs.org/carcass-memoray
+87 error publish fail Cannot publish over existing version.
+87 error publish fail Bump the 'version' field, set the --force flag, or
+87 error publish fail     npm unpublish 'carcass-memoray@0.0.1'
+87 error publish fail and try again
+88 error System Linux 3.2.0-29-generic
+89 error command "/home/tknew/nvm/v0.8.17/bin/node" "/home/tknew/nvm/v0.8.17/bin/npm" "publish"
+90 error cwd /home/tknew/WiredCraft/carcass/examples/auth/node_modules/carcass-memoray
+91 error node -v v0.8.17
+92 error npm -v 1.2.0
+93 error code EPUBLISHCONFLICT
+94 verbose exit [ 1, true ]

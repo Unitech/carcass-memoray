@@ -10,6 +10,8 @@ Storage plugin for Carcass using [ArrayJS](http://matthewmueller.github.com/arra
 
 ## Example
 
+/!\ Don't forget to require('carcass-memoray') in the index.js carcass root file.
+
 ```
 var storage = carcass.storages.memoray({
     id: 'model'
