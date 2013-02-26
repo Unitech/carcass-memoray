@@ -1,0 +1,5 @@
+--require should
+--reporter spec
+--timeout 3000
+--ignore-leaks
+--globals i

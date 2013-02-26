@@ -1,0 +1,22 @@
+{
+  "name": "carcass-memoray",
+  "description": "Memoray storage for Carcass",
+  "version": "0.0.1",
+  "contributors": [],
+  "keywords": [
+    "carcass",
+    "auth"
+  ],
+  "url": "",
+  "dependencies": {
+      "array.js" : "*",
+      "debug" : "*"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "should": "1.x"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/*.mocha.js"
+  }
+}
